@@ -16,8 +16,8 @@ settings:
 
 monitors:
   - id: alistr # unique identifier
-    name: alisttr.top
-    description: 'You write code. They handle the rest.' # default=empty
+    name: ALIST 
+    description: 'Web Lưu trữ Alist' # default=empty
     url: 'https://alisttr.top' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -25,23 +25,41 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: koyeb.alistr
-    name: koyeb.alisttr.top
-    description: 'Built for anything connected to the Internet.'
+    name: BACKUP ALIST KOYEB
+    description: 'Backup Alist Koyeb'
     url: 'https://koyeb.alisttr.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: glitch.alisttr.top
-    name: glitch.alisttr.top
-    url: 'https://glitch.alisttr.top/'
+    name: BACKUP ALIST GLITCH
+    description: 'Backup Alist Glitch'
+    url: 'https://glitch.alisttr.top'
     method: GET
     expectStatus: 200
 
   - id: onedrive.alisttr.top
-    name: https://onedrive.alisttr.top/
-    description: 'Built for anything connected to the Internet.'
+    name: ONEDRIVE INDEX
+    description: 'Onedrive'
     url: 'https://onedrive.alisttr.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: ChatGPT
+    name: CHATGPT NEXTWEB
+    description: 'https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web'
+    url: 'https://chatgpt.alisttr.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: vaultwarden
+    name: VAULTWARDEN
+    description: 'https://github.com/dani-garcia/vaultwarden'
+    url: 'https://ps.alisttr.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
