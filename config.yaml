@@ -63,3 +63,11 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: next.alisttr.top
+    name: NEXTCHAT Vercel
+    description: 'https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web'
+    url: 'https://next.alisttr.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
