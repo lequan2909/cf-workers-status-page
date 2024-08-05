@@ -71,3 +71,11 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: oneapi
+    name: ONEAPI 
+    description: 'https://github.com/songquanpeng/one-api'
+    url: 'https://one-api-en-latest.onrender.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
