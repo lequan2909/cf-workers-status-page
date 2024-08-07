@@ -50,7 +50,7 @@ monitors:
   - id: ChatGPT
     name: CHATGPT NEXTWEB
     description: 'https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web'
-    url: 'https://chatgpt.alisttr.top'
+    url: 'https://nextchat.alisttr.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
